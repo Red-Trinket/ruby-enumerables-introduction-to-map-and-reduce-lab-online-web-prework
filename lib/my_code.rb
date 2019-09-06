@@ -24,10 +24,7 @@ def reduce_to_all_true(ary)
 end
 
 def reduce_to_any_true(ary)
-ary.reduce((isTrue, element) => {
-  if (element == true) {
-    isTrue = isTrue || true;
-  }
+ary.any? {|element| element == true
 end
 
 
