@@ -24,15 +24,10 @@ def reduce_to_all_true(ary)
 end
 
 def reduce_to_any_true(ary)
-  i = 0 
-  while i < ary.size do
-    if ary[i] == true 
-      return true
-    else
-      puts "not this one"
-    return false 
-    end
-  end
+ary.reduce((isTrue, element) => {
+  if (element == true) {
+    isTrue = isTrue || true;
+  }
 end
 
 
