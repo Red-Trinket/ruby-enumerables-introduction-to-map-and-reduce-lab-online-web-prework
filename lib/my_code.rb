@@ -18,3 +18,6 @@ end
 def reduce_to_total(ary, start = 0)
   ary.reduce(start) {|sum, n| sum + n}
 end
+
+def reduce_to_all_true(ary)
+  ary.reduce {|
