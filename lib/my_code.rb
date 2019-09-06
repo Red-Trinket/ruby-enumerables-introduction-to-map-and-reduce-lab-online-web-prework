@@ -22,3 +22,5 @@ end
 def reduce_to_all_true(ary)
   ary.reduce(true, :&)
 end
+
+def reduce_to_any_true(ary)
