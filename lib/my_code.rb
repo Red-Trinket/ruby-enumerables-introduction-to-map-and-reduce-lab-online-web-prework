@@ -29,6 +29,7 @@ def reduce_to_any_true(ary)
     if ary[i] == true 
       return true
     else
+      puts "not this one"
     end
     return false 
   end
