@@ -36,4 +36,3 @@ def reduce_to_any_true(ary)
 end
 
 
-end
