@@ -24,7 +24,7 @@ def reduce_to_all_true(ary)
 end
 
 def reduce_to_any_true(ary)
-ary.any? {|element| element == true
+  ary.any? {|element| element == true}
 end
 
 
