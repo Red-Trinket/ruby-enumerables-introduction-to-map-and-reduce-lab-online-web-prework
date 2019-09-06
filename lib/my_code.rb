@@ -15,6 +15,6 @@ def map_to_square(ary)
   ary.map {|n| n ** 2}
 end  
 
-def reduce_to_total(ary, start)
+def reduce_to_total(ary, start = 0)
   ary.reduce(0) {|sum, n| sum + n}
 end
