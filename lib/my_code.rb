@@ -20,4 +20,5 @@ def reduce_to_total(ary, start)
     ary.reduce(0) {|sum, n| sum + n}
   else
     ary.reduce(start) {|sum, n| sum + n}
+  end
 end
