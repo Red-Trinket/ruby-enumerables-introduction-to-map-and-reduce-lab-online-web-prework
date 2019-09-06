@@ -16,9 +16,9 @@ def map_to_square(ary)
 end  
 
 def reduce_to_total(ary, start)
-  if start == nil 
-    ary.reduce(0) {|sum, n| sum + n}
-  else
+  if start  
     ary.reduce(start) {|sum, n| sum + n}
+  else
+    ary.reduce(0) {|sum, n| sum + n}
   end
 end
