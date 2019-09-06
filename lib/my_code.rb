@@ -20,5 +20,5 @@ def reduce_to_total(ary, start = 0)
 end
 
 def reduce_to_all_true(ary)
-  ary.reduce(:&)
+  ary.reduce(true, :&)
 end
