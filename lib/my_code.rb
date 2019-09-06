@@ -32,6 +32,8 @@ def reduce_to_any_true(ary)
       puts "not this one"
     return false 
     end
+  end
+end
 
 
 end
